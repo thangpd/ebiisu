@@ -15,7 +15,7 @@ get_header( 'shop' ); ?>
 
 <div id="page">
 	<article class="<?php mts_article_class(); ?>">
-		<div id="content_box" >
+		<div class="<?php mts_article_class(); ?>" id="content_box" >
 		<?php
 			/**
 			 * woocommerce_before_main_content hook

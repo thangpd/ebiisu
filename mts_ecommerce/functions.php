@@ -2080,7 +2080,12 @@ function mts_enqueue_css() {
 
 	if ( $mts_custom_sidebar == 'mts_nosidebar' ) {
 		$custom_css .= "
-.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+
+    
+   .woocommerce-page div.product div.summary,.woocommerce div.product .woocommerce-tabs .panel {
+		    max-width:900px !important;
+        }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
     width: 22.03%;
     float: left;
 
@@ -2093,9 +2098,6 @@ function mts_enqueue_css() {
     position: relative;
     background: #fff;
     clear: none !important;
-    .ss-full-width .woocommerce div.product .woocommerce-tabs .panel{
-		    max-width:900px !important;
-        }
     ";
 
 	}
