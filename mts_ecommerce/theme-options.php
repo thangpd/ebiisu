@@ -1947,7 +1947,7 @@ function setup_framework_options() {
 				'type'     => 'sidebars_select',
 				'title'    => __( 'Single Product', MTS_THEME_TEXTDOMAIN ),
 				'sub_desc' => __( 'Select a sidebar for single products (WooCommerce plugin must be enabled). Default is <strong>Single Product Sidebar</strong>.', MTS_THEME_TEXTDOMAIN ),
-				'args'     => array( 'allow_nosidebar' => false, 'exclude' => mts_get_excluded_sidebars() ),
+				'args'     => array( 'allow_nosidebar' => true, 'exclude' => mts_get_excluded_sidebars() ),
 				'std'      => 'product-sidebar'
 			),
 		),

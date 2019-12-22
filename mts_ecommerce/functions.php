@@ -2092,7 +2092,12 @@ function mts_enqueue_css() {
     border: 1px solid #d5d8db;
     position: relative;
     background: #fff;
-    clear: none !important;";
+    clear: none !important;
+    .ss-full-width .woocommerce div.product .woocommerce-tabs .panel{
+		    max-width:900px !important;
+        }
+    ";
+
 	}
 	wp_add_inline_style( $handle, $custom_css );
 }
