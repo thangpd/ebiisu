@@ -565,14 +565,15 @@ if ( ! function_exists( 'mts_article_class' ) ) {
     function mts_article_class() {
         $mts_options = get_option( MTS_THEME_NAME );
         $class = '';
-        
+
         // sidebar or full width
-        if ( mts_custom_sidebar() == 'mts_nosidebar' ) {
+	    $mts_custom_sidebar = mts_custom_sidebar();
+
+	    if ( $mts_custom_sidebar == 'mts_nosidebar' ) {
             $class = 'ss-full-width';
         } else {
             $class = 'article';
         }
-        
         echo $class;
     }
 }

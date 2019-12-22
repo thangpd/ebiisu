@@ -671,7 +671,7 @@ MyThemeShop.com Themes.
 }
 /*..............
 
-[Header Cart] 
+[Header Cart]
 
 ................*/
 .mts-cart-button-wrap {
@@ -2996,15 +2996,19 @@ form.checkout.woocommerce-checkout {
 .woocommerce a.compare.button { margin-bottom: 10px; }
 .mts-wishlist-table-row .mts-remove-from-wishlist { float: left !important }
 .woocommerce-checkout .select2-choice { clear: both; }
-@media screen and (max-width:728px) { 
+
+
+
+
+@media screen and (max-width:728px) {
 	.woocommerce .article { width: 100% }
 	.woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3 { font-size: 12px!important }
 }
-@media screen and (max-width:480px) { 
+@media screen and (max-width:480px) {
 	.woocommerce div.product div.images, .woocommerce-page div.product div.images, .woocommerce #content div.product div.images, .woocommerce-page #content div.product div.images { width: 100% }
 	.woocommerce div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page #content div.product div.summary { width: 100% }
 }
-@media screen and (max-width:1230px) { 
+@media screen and (max-width:1230px) {
 	.woocommerce .cart-wishlist-button .mts-add-to-wishlist {
 	    padding: 0 10px;
 	    padding-right: 20px;
@@ -3019,7 +3023,7 @@ form.checkout.woocommerce-checkout {
 	}
 	.single-product .mts-ad-widgets .banner-content-inner { top: 25px }
 }
-@media screen and (max-width:1130px) { 
+@media screen and (max-width:1130px) {
 	.woocommerce div.product .offers p.price del {
 	    float: left;
 	    margin-right: 5px;
@@ -3044,7 +3048,7 @@ form.checkout.woocommerce-checkout {
 	.woocommerce .related-products .product-hover .text { bottom: 46% }
 	.woocommerce .related-products .product-hover .icon { top: 35% }
 }
-@media screen and (max-width:1024px) { 
+@media screen and (max-width:1024px) {
 	.woocommerce div.product .offers .spacing { display: none }
 	.woocommerce div.product .offers p.price del {
 	    float: right;
@@ -3072,7 +3076,7 @@ form.checkout.woocommerce-checkout {
 	    margin-bottom: 15px;
 	}
 }
-@media screen and (max-width:960px) { 
+@media screen and (max-width:960px) {
 	.woocommerce div.product .product_title, .woocommerce-page div.product .product_title, .woocommerce #content div.product .product_title, .woocommerce-page #content div.product .product_title { font-size: 20px }
 	.woocommerce div.product .offers-description .quantity { margin-top: 10px }
 	.woocommerce .cart-actions .button {
@@ -3087,7 +3091,7 @@ form.checkout.woocommerce-checkout {
 	.woocommerce .related-products .product-hover .text, .woocommerce .featured-products .product-hover .text { bottom: 48% }
 	.woocommerce .related-products .product-hover .icon, .woocommerce .featured-products .product-hover .icon { top: 37% }
 }
-@media screen and (max-width:865px) { 
+@media screen and (max-width:865px) {
 	.woocommerce .related-products .product-hover .icon, .woocommerce .featured-products .product-hover .icon { top: 34% }
 	.limited-offers.full .products li {
 	    width: 30%;
@@ -3103,7 +3107,7 @@ form.checkout.woocommerce-checkout {
 	.limited-offers.full .products li:nth-child(3n) { margin-right: 0!important }
 	.limited-offers.full .products li:nth-child(4n) { margin-right: 5%!important }
 }
-@media screen and (max-width:800px) { 
+@media screen and (max-width:800px) {
 	.woocommerce-cart .c-8-12 { width: 100% }
 	.woocommerce-cart .c-4-12 {
 	    width: 100%!important;
@@ -3130,14 +3134,14 @@ form.checkout.woocommerce-checkout {
         margin-bottom: 30px;
 	}
 }
-@media screen and (max-width:768px) { 
+@media screen and (max-width:768px) {
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { clear: none }
 }
-@media screen and (max-width:728px) { 
+@media screen and (max-width:728px) {
 	.woocommerce .related-products .product-hover .text, .woocommerce .featured-products .product-hover .text { bottom: 46% }
 	.woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce-account .woocommerce-MyAccount-navigation li a { font-size: 17px }
 }
-@media screen and (max-width:640px) { 
+@media screen and (max-width:640px) {
 	/*Product-page*/
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product, .woocommerce ul.products li.product:nth-child(3n), .woocommerce-page ul.products li.product:nth-child(3n) {
 	    width: 48%;
@@ -3158,7 +3162,7 @@ form.checkout.woocommerce-checkout {
 	    font-size: 15px;
 	}
 }
-@media screen and (max-width:550px) { 
+@media screen and (max-width:550px) {
 	.woocommerce .cart-wishlist-button .mts-add-to-wishlist, .woocommerce .button.alt {
 	    width: 100%;
 	    margin-bottom: 10px;
@@ -3184,7 +3188,7 @@ form.checkout.woocommerce-checkout {
 	.limited-offers.full .products li:nth-child(4n) { margin-right: 0!important }
 	.limited-offers.full .products li:nth-child(even) { margin-right: 0!important }
 }
-@media screen and (max-width:480px) { 
+@media screen and (max-width:480px) {
 	.woocommerce div.product div.images, .woocommerce div.product div.summary {
 	    width: 100%;
 	    max-width: 100%;
@@ -3200,7 +3204,7 @@ form.checkout.woocommerce-checkout {
 	.mts-cart-content-footer { padding-bottom: 20px }
 	.mts-cart-product-data { max-width: 120px }
 }
-@media screen and (max-width:430px) { 
+@media screen and (max-width:430px) {
 	.woocommerce table.shop_table {
 	    border-spacing: 5px;
 	    padding: 0;
@@ -3217,7 +3221,7 @@ form.checkout.woocommerce-checkout {
 	.woocommerce .related-products .product-hover .text, .woocommerce .featured-products .product-hover .text { bottom: 40% }
 	.woocommerce .related-products .product-hover .icon, .woocommerce .featured-products .product-hover .icon { top: 32% }
 }
-@media screen and (max-width:380px) { 
+@media screen and (max-width:380px) {
 	.woocommerce .related-products .product-hover .text, .woocommerce .featured-products .product-hover .text { bottom: 48% }
 	.woocommerce .related-products .product-hover .icon, .woocommerce .featured-products .product-hover .icon { top: 38% }
 }
